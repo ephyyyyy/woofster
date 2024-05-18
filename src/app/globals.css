@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-theme-50: #fff2e8;
+  --color-theme-100: #ffd5ba;
+  --color-theme-200: #ffb68b;
+  --color-theme-300: #ff935d;
+  --color-theme-400: #ff6d2e;
+  --color-theme-500: #ff4500;
+  --color-theme-600: #db3300;
+  --color-theme-700: #b82500;
+  --color-theme-800: #941900;
+  --color-theme-900: #700f00;
+  --color-theme-950: #4d0800;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */

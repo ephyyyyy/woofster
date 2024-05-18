@@ -1,0 +1,9 @@
+.root {
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+.button {
+  background-color: var(--color-theme-500);
+  color: red;
+}
