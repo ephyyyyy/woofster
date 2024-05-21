@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className={clsx("flex flex-row justify-between w-full h-24 py-4", styles.root)}>
+    <header className={clsx("flex flex-row justify-between w-full h-24 py-4 z-20", styles.root)}>
       <div className='flex justify-start items-center w-full h-full'>
         <Image
           src="/favicon.ico"
@@ -31,7 +31,7 @@ export const Header = () => {
         </nav>
       </div>
       <nav className='flex justify-end items-center w-full h-full'>
-        <Button className={styles.button} style={{ backgroundColor: '#ff4500'}} type="primary" shape="round" icon={<ArrowRightOutlined />} size='large'>
+        <Button className={styles.button} iconPosition='end' style={{ backgroundColor: '#ff4500'}} type="primary" shape="round" icon={<ArrowRightOutlined />} size='large'>
           Contact Us
         </Button>
       </nav>

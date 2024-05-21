@@ -1,7 +1,7 @@
 export const LandingPreviewBackdround = () => {
   return (
-    <div className="flex justify-center items-center w-full h-50 overflow-hidden isolate">
-        <svg className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-black/10 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]" aria-hidden="true">
+    <div className="flex justify-center items-center w-full h-50 overflow-hidden isolate -z-50">
+        <svg className="absolute opacity-100 inset-x-0 top-0 h-[80rem] w-full stroke-black/10 [mask-image:radial-gradient(60rem_60rem_at_center,white,transparent)]" aria-hidden="true">
           <defs>
             <pattern id="background-pattern" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
               <path d="M.5 200V.5H200" fill="none"></path>
