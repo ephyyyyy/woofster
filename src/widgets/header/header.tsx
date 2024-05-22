@@ -21,7 +21,7 @@ export const Header = () => {
       </div>
       <div className='flex justify-between items-center gap-8 h-full'>
         <nav className='flex justify-center items-center cursor-pointer'>
-          <Link href='/home'>Home</Link>
+          <Link href='/'>Home</Link>
         </nav>
         <nav className='flex justify-center items-center cursor-pointer text-nowrap'>
           <Link href='/parks'>Dog Parks</Link>
