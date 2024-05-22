@@ -19,12 +19,12 @@ export const LandingPreview = () => {
               Find Dog Parks
             </Button>
             <Button className={clsx(styles.button, 'ml-6 gap-1 font-semibold leading-6 text-slate-900 text-base')} type="text" shape="round" iconPosition='end' icon={<ArrowRightOutlined />} size='large'>
-              Find Dog Parks
+              Subscribe Us
             </Button>
           </div>
         </div>
-        <div className="p-4 flex gap-4">
-          <div className="flex flex-col gap-4">
+        <div className="p-4 flex gap-10">
+          <div className="flex flex-col gap-10 justify-end items-end py-20">
             <div className=" bg-slate-100 rounded-full aspect-square object-cover shadow-lg">
               <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover" src="/images/dog-photo-2.jpeg" alt="Dog" width={140} height={140} />
             </div>
@@ -32,7 +32,7 @@ export const LandingPreview = () => {
               <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover" src="/images/dog-photo-1.jpeg" alt="Dog" width={140} height={140} />
             </div>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-10">
             <div className=" bg-slate-100 rounded-full">
               <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover"src="/images/dog-photo-3.jpeg" alt="Dog" width={140} height={140} />
             </div>
