@@ -24,15 +24,18 @@ export const Header = () => {
           <Link href='/'>Home</Link>
         </nav>
         <nav className='flex justify-center items-center cursor-pointer text-nowrap'>
-          <Link href='/parks'>Dog Parks</Link>
+          <Link href='/parks'>Pet&apos;s Map</Link>
         </nav>
         <nav className='flex justify-center items-center cursor-pointer'>
-          <Link href='/newsletter'>Newsletter</Link>
+          <Link href='/newsletter'>Materials</Link>
         </nav>
       </div>
       <nav className='flex justify-end items-center w-full h-full'>
         <Button className={styles.button} iconPosition='end' style={{ backgroundColor: '#ff4500'}} type="primary" shape="round" icon={<ArrowRightOutlined />} size='large'>
-          Contact Us
+          Log In
+        </Button>
+        <Button className={clsx(styles.button, 'ml-2')} iconPosition='end' type="text" shape="round" size='large'>
+          Sign Up
         </Button>
       </nav>
     </header>
