@@ -12,10 +12,11 @@ export const Header = () => {
     <header className={clsx("flex flex-row justify-between w-full h-24 py-4 z-20", styles.root)}>
       <div className='flex justify-start items-center w-full h-full'>
         <Image
+          style={{ color: '#ff4500'}}
           src="/favicon.ico"
-          alt="Next.js Logo"
-          width={30}
-          height={12}
+          alt="Woofster Logo"
+          width={200}
+          height={24}
           priority
         />
       </div>
