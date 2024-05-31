@@ -1,11 +1,9 @@
-import { Inter } from "next/font/google";
+import clsx from "clsx";
 import { LandingPreview, MapPreview, ServiceExplanation } from "@/widgets";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-10">
+    <main className="flex flex-col items-center justify-between bg-brand-salad p-10">
       <LandingPreview />
       <ServiceExplanation />
       <MapPreview />

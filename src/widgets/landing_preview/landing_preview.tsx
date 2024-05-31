@@ -26,18 +26,18 @@ export const LandingPreview = () => {
         <div className="p-4 flex gap-10">
           <div className="flex flex-col gap-10 justify-end items-end py-20">
             <div className=" bg-slate-100 rounded-full aspect-square object-cover shadow-lg">
-              <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover" src="/images/dog-photo-2.jpeg" alt="Dog" width={140} height={140} />
+              <Image className="aspect-square z-10 w-full rounded-[50%] bg-slate-100 object-cover" src="/images/dog-photo-2.jpeg" alt="Dog" width={140} height={140} />
             </div>
             <div className=" bg-slate-100 rounded-full">
-              <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover" src="/images/dog-photo-1.jpeg" alt="Dog" width={140} height={140} />
+              <Image className="aspect-square z-10 w-full rounded-[50%] bg-slate-100 object-cover" src="/images/dog-photo-1.jpeg" alt="Dog" width={140} height={140} />
             </div>
           </div>
           <div className="flex flex-col gap-10">
             <div className=" bg-slate-100 rounded-full">
-              <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover"src="/images/dog-photo-3.jpeg" alt="Dog" width={140} height={140} />
+              <Image className="aspect-square z-10 w-full rounded-[50%] bg-slate-100 object-cover"src="/images/dog-photo-3.jpeg" alt="Dog" width={140} height={140} />
             </div>
             <div className=" bg-slate-100 rounded-full">
-              <Image className="aspect-square w-full rounded-xl bg-slate-100 object-cover"src="/images/dog-photo-4.jpeg" alt="Dog" width={140} height={140} />
+              <Image className="aspect-square z-10 w-full rounded-[50%] bg-slate-100 object-cover"src="/images/dog-photo-4.jpeg" alt="Dog" width={140} height={140} />
             </div>
           </div>
         </div>

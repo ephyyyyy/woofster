@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className={clsx("flex flex-row justify-between w-full h-24 py-4 z-20", styles.root)}>
+    <header className={clsx("flex flex-row justify-between w-full h-24 py-4 absolute z-10", styles.root)}>
       <div className='flex justify-start items-center w-full h-full'>
         <Image
           style={{ color: '#ff4500'}}
@@ -22,13 +22,13 @@ export const Header = () => {
       </div>
       <div className='flex justify-between items-center gap-8 h-full'>
         <nav className='flex justify-center items-center cursor-pointer'>
-          <Link href='/'>Home</Link>
+          <Link href='/' className='text-white'>Home</Link>
         </nav>
         <nav className='flex justify-center items-center cursor-pointer text-nowrap'>
-          <Link href='/parks'>Pet&apos;s Map</Link>
+          <Link href='/parks' className='text-white'>Pet&apos;s Map</Link>
         </nav>
         <nav className='flex justify-center items-center cursor-pointer'>
-          <Link href='/newsletter'>Materials</Link>
+          <Link href='/newsletter' className='text-white'>Materials</Link>
         </nav>
       </div>
       <nav className='flex justify-end items-center w-full h-full'>
@@ -36,7 +36,7 @@ export const Header = () => {
           Log In
         </Button>
         <Button className={clsx(styles.button, 'ml-2')} iconPosition='end' type="text" shape="round" size='large'>
-          Sign Up
+          <span className='text-white'>Sign Up</span>
         </Button>
       </nav>
     </header>

@@ -16,7 +16,12 @@ const config: Config = {
       },
       colors: {
         theme: {
-          50: '#FFF2E8',
+          gray: '#fff2e8',
+        },
+        brand: {
+          green: '#d7e4c0',
+          orange: '#ff4500',
+          salad: '#d7e4c0',
         },
       },
       fill: {
