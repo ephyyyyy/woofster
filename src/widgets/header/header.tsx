@@ -28,7 +28,7 @@ export const Header = () => {
           <Link href='/parks' className='text-white'>Pet&apos;s Map</Link>
         </nav>
         <nav className='flex justify-center items-center cursor-pointer'>
-          <Link href='/newsletter' className='text-white'>Materials</Link>
+          <Link href='/materials' className='text-white'>Materials</Link>
         </nav>
       </div>
       <nav className='flex justify-end items-center w-full h-full'>
