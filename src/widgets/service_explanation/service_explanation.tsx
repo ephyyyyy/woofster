@@ -5,7 +5,7 @@ export const ServiceExplanation = () => {
   return (
     <div className={clsx("flex flex-col items-center justify-between w-full max-h-full p-10 mx-auto max-w-7xl px-6 pb-32 pt-20 sm:pt-32 lg:px-8 lg:pt-8")}>
       <div>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900">Discover Dog-Friendly Places</h1>
+        <h2 className="text-4xl font-bold tracking-tight text-slate-900">Discover Dog-Friendly Places</h2>
         <p className="pt-2">Explore parks, cafes, and shops that welcome your furry friends.</p>
       </div>
       <div>

@@ -8,9 +8,9 @@ import styles from './landing_preview.module.css';
 
 export const LandingPreview = () => {
   return (
-    <div className={clsx("flex flex-col items-center justify-between w-full max-h-full p-10 mx-auto max-w-7xl px-6 pb-32 pt-20 sm:pt-32 lg:px-8 lg:pt-10")}>
+    <div className={clsx("flex flex-col items-center justify-between w-full max-h-full mt-[146px] p-10 mx-auto max-w-7xl px-6 pb-32 pt-20 sm:pt-32 lg:px-8 lg:pt-10")}>
       <LandingPreviewBackdround />
-      <div className="w-full flex justify-between gap-10">
+      <div className="w-full flex justify-between gap-10 z-10">
         <div className="flex flex-col justify-center items-start w-1/2">
           <h1 className="z-10 text-4xl font-bold tracking-tight text-slate-900">
             <strong style={{ color: '#ff4500' }}>Woofster. </strong>
