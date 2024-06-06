@@ -17,6 +17,7 @@ const config: Config = {
       colors: {
         theme: {
           gray: '#fff2e8',
+          gray_text: '#6c757d',
         },
         brand: {
           green: '#d7e4c0',
@@ -26,7 +27,10 @@ const config: Config = {
       },
       fill: {
         "gray-50": "var(--color-theme-50);",
-      }
+      },
+      fontFamily: {
+        sans_source: ['var(--font-sans)'],
+      },
     },
   },
   plugins: [

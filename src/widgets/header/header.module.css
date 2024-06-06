@@ -1,6 +1,7 @@
 .root {
   padding: 1rem 2rem;
-  background-color: #337357;
+  color: black;
+  /* background-color: #337357; */
 }
 
 .button {

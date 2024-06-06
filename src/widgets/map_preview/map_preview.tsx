@@ -39,11 +39,11 @@ export const MapPreview = ({ children }: { children?: ReactElement }) => {
   }, [])
 
   return (
-    <div className={clsx("flex flex-col items-center justify-between w-full max-h-full p-4 mx-auto max-w-7xl px-6 pb-32 pt-20 sm:pt-32 lg:px-8 lg:pt-10")}>
+    <div className={clsx("flex flex-col items-center justify-between w-full max-h-full mx-auto max-w-7xl")}>
       <MapCard place={selectedPlace} />
       <div className="w-full flex justify-between gap-10">
         {children}
-        <div className="w-full h-full p-10">
+        <div className="w-full h-full">
           <GoogleMap onMarkerClick={handleClick} data={mapData} />
         </div>
       </div>
